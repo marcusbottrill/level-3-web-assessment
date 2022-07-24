@@ -2,3 +2,43 @@ html, body {
   height: 100%;
   width: 100%;
 }
+kama
+.homebody{
+  display: grid;
+  grid-template-areas: 
+    "header header header header header"
+     "nav nav nav nav nav"
+    "mainimage mainimage"
+  ;
+grid-template-columns: 2fr 3fr 1fr 3fr 2fr; 
+}
+
+header{
+  background-color: orange; 
+grid-area: header; 
+height: 70px
+}
+
+nav{
+  background-color: lightgrey;
+  grid-area: nav;
+  height: 30px;
+}
+
+mainimage{
+  grid-area: mainimage;
+  height: 50px;
+}
+
+.image{
+  width: 40%;
+  height: auto;
+}
+
+.mainimage{
+  display:grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: 100px;
+  padding:10px;
+  
+}
