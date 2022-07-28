@@ -23,6 +23,14 @@ nav{
   background-color: lightgrey;
   grid-area: nav;
   height: 30px;
+
+}
+nav, a{
+  padding-right: 15px;
+  text-align:center;
+}
+nav, a.active{
+  color:black;
 }
 
 mainimage{
