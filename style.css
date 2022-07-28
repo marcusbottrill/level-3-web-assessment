@@ -20,17 +20,25 @@ height: 70px
 }
 
 nav{
-  background-color: lightgrey;
+  background-color: #545452;
   grid-area: nav;
-  height: 30px;
+  height: auto;
 
 }
 nav, a{
-  padding-right: 15px;
+  padding: 10px 15px;
   text-align:center;
+  color:lightgrey;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  
 }
-nav, a.active{
-  color:black;
+ a.active{
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 mainimage{
