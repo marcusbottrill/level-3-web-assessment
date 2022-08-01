@@ -1,22 +1,12 @@
 html, body {
   height: 100%;
   width: 100%;
-}
-kama
-.homebody{
-  display: grid;
-  grid-template-areas: 
-    "header header header header header"
-     "nav nav nav nav nav"
-    "mainimage mainimage"
-  ;
-grid-template-columns: 2fr 3fr 1fr 3fr 2fr; 
+  margin: 0px;
 }
 
-header{
-  background-color: orange; 
-grid-area: header; 
-height: 70px
+header img{
+	 max-width: 100%;
+  height: 25% ;
 }
 
 nav{
@@ -26,12 +16,12 @@ nav{
 
 }
 nav, a{
-  padding: 10px 15px;
+  padding: 15px;
   text-align:center;
   color:lightgrey;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  
+
 }
  a.active{
   text-decoration: underline;
@@ -56,5 +46,5 @@ mainimage{
   grid-template-columns: repeat(2, 2fr);
   grid-template-rows: 100px;
   padding:10px;
-  
 }
+
